@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8D92E66E2DB8D33600B119A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D92E6552DB8D33500B119A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D92E65C2DB8D33500B119A3;
+			remoteInfo = FindFiveMisses;
+		};
+		8D92E6782DB8D33600B119A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D92E6552DB8D33500B119A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D92E65C2DB8D33500B119A3;
+			remoteInfo = FindFiveMisses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D92E65D2DB8D33500B119A3 /* FindFiveMisses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindFiveMisses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D92E66D2DB8D33600B119A3 /* FindFiveMissesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFiveMissesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D92E6772DB8D33600B119A3 /* FindFiveMissesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFiveMissesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8D92E65F2DB8D33500B119A3 /* FindFiveMisses */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindFiveMisses;
+			sourceTree = "<group>";
+		};
+		8D92E6702DB8D33600B119A3 /* FindFiveMissesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindFiveMissesTests;
+			sourceTree = "<group>";
+		};
+		8D92E67A2DB8D33600B119A3 /* FindFiveMissesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindFiveMissesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D92E65A2DB8D33500B119A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92E66A2DB8D33600B119A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92E6742DB8D33600B119A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D92E6542DB8D33500B119A3 = {
+			isa = PBXGroup;
+			children = (
+				8D92E65F2DB8D33500B119A3 /* FindFiveMisses */,
+				8D92E6702DB8D33600B119A3 /* FindFiveMissesTests */,
+				8D92E67A2DB8D33600B119A3 /* FindFiveMissesUITests */,
+				8D92E65E2DB8D33500B119A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D92E65E2DB8D33500B119A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D92E65D2DB8D33500B119A3 /* FindFiveMisses.app */,
+				8D92E66D2DB8D33600B119A3 /* FindFiveMissesTests.xctest */,
+				8D92E6772DB8D33600B119A3 /* FindFiveMissesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D92E65C2DB8D33500B119A3 /* FindFiveMisses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D92E6812DB8D33600B119A3 /* Build configuration list for PBXNativeTarget "FindFiveMisses" */;
+			buildPhases = (
+				8D92E6592DB8D33500B119A3 /* Sources */,
+				8D92E65A2DB8D33500B119A3 /* Frameworks */,
+				8D92E65B2DB8D33500B119A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8D92E65F2DB8D33500B119A3 /* FindFiveMisses */,
+			);
+			name = FindFiveMisses;
+			packageProductDependencies = (
+			);
+			productName = FindFiveMisses;
+			productReference = 8D92E65D2DB8D33500B119A3 /* FindFiveMisses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D92E66C2DB8D33600B119A3 /* FindFiveMissesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D92E6842DB8D33600B119A3 /* Build configuration list for PBXNativeTarget "FindFiveMissesTests" */;
+			buildPhases = (
+				8D92E6692DB8D33600B119A3 /* Sources */,
+				8D92E66A2DB8D33600B119A3 /* Frameworks */,
+				8D92E66B2DB8D33600B119A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D92E66F2DB8D33600B119A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D92E6702DB8D33600B119A3 /* FindFiveMissesTests */,
+			);
+			name = FindFiveMissesTests;
+			packageProductDependencies = (
+			);
+			productName = FindFiveMissesTests;
+			productReference = 8D92E66D2DB8D33600B119A3 /* FindFiveMissesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D92E6762DB8D33600B119A3 /* FindFiveMissesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D92E6872DB8D33600B119A3 /* Build configuration list for PBXNativeTarget "FindFiveMissesUITests" */;
+			buildPhases = (
+				8D92E6732DB8D33600B119A3 /* Sources */,
+				8D92E6742DB8D33600B119A3 /* Frameworks */,
+				8D92E6752DB8D33600B119A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D92E6792DB8D33600B119A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D92E67A2DB8D33600B119A3 /* FindFiveMissesUITests */,
+			);
+			name = FindFiveMissesUITests;
+			packageProductDependencies = (
+			);
+			productName = FindFiveMissesUITests;
+			productReference = 8D92E6772DB8D33600B119A3 /* FindFiveMissesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D92E6552DB8D33500B119A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8D92E65C2DB8D33500B119A3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8D92E66C2DB8D33600B119A3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8D92E65C2DB8D33500B119A3;
+					};
+					8D92E6762DB8D33600B119A3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8D92E65C2DB8D33500B119A3;
+					};
+				};
+			};
+			buildConfigurationList = 8D92E6582DB8D33500B119A3 /* Build configuration list for PBXProject "FindFiveMisses" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D92E6542DB8D33500B119A3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D92E65E2DB8D33500B119A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D92E65C2DB8D33500B119A3 /* FindFiveMisses */,
+				8D92E66C2DB8D33600B119A3 /* FindFiveMissesTests */,
+				8D92E6762DB8D33600B119A3 /* FindFiveMissesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D92E65B2DB8D33500B119A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92E66B2DB8D33600B119A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92E6752DB8D33600B119A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D92E6592DB8D33500B119A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92E6692DB8D33600B119A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92E6732DB8D33600B119A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D92E66F2DB8D33600B119A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D92E65C2DB8D33500B119A3 /* FindFiveMisses */;
+			targetProxy = 8D92E66E2DB8D33600B119A3 /* PBXContainerItemProxy */;
+		};
+		8D92E6792DB8D33600B119A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D92E65C2DB8D33500B119A3 /* FindFiveMisses */;
+			targetProxy = 8D92E6782DB8D33600B119A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D92E67F2DB8D33600B119A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D92E6802DB8D33600B119A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D92E6822DB8D33600B119A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindFiveMisses/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.FindFiveMisses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D92E6832DB8D33600B119A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindFiveMisses/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.FindFiveMisses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D92E6852DB8D33600B119A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.FindFiveMissesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindFiveMisses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindFiveMisses";
+			};
+			name = Debug;
+		};
+		8D92E6862DB8D33600B119A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.FindFiveMissesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindFiveMisses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindFiveMisses";
+			};
+			name = Release;
+		};
+		8D92E6882DB8D33600B119A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.FindFiveMissesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindFiveMisses;
+			};
+			name = Debug;
+		};
+		8D92E6892DB8D33600B119A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.FindFiveMissesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindFiveMisses;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D92E6582DB8D33500B119A3 /* Build configuration list for PBXProject "FindFiveMisses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D92E67F2DB8D33600B119A3 /* Debug */,
+				8D92E6802DB8D33600B119A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D92E6812DB8D33600B119A3 /* Build configuration list for PBXNativeTarget "FindFiveMisses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D92E6822DB8D33600B119A3 /* Debug */,
+				8D92E6832DB8D33600B119A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D92E6842DB8D33600B119A3 /* Build configuration list for PBXNativeTarget "FindFiveMissesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D92E6852DB8D33600B119A3 /* Debug */,
+				8D92E6862DB8D33600B119A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D92E6872DB8D33600B119A3 /* Build configuration list for PBXNativeTarget "FindFiveMissesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D92E6882DB8D33600B119A3 /* Debug */,
+				8D92E6892DB8D33600B119A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D92E6552DB8D33500B119A3 /* Project object */;
+}
