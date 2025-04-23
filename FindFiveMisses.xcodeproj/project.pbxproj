@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D92E68B2DB8DB9700B119A3 /* FiveMisses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92E68A2DB8DB9700B119A3 /* FiveMisses.swift */; };
+		8D92E68D2DB8E83D00B119A3 /* FiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92E68C2DB8E83D00B119A3 /* FiveViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		8D92E66D2DB8D33600B119A3 /* FindFiveMissesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFiveMissesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D92E6772DB8D33600B119A3 /* FindFiveMissesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFiveMissesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D92E68A2DB8DB9700B119A3 /* FiveMisses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMisses.swift; sourceTree = "<group>"; };
+		8D92E68C2DB8E83D00B119A3 /* FiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -48,6 +50,11 @@
 		8D92E67A2DB8D33600B119A3 /* FindFiveMissesUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FindFiveMissesUITests;
+			sourceTree = "<group>";
+		};
+		8D92E6902DB8EF8C00B119A3 /* Images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +87,8 @@
 		8D92E6542DB8D33500B119A3 = {
 			isa = PBXGroup;
 			children = (
+				8D92E6902DB8EF8C00B119A3 /* Images */,
+				8D92E68C2DB8E83D00B119A3 /* FiveViewModel.swift */,
 				8D92E68A2DB8DB9700B119A3 /* FiveMisses.swift */,
 				8D92E65F2DB8D33500B119A3 /* FindFiveMisses */,
 				8D92E6702DB8D33600B119A3 /* FindFiveMissesTests */,
@@ -115,6 +124,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				8D92E65F2DB8D33500B119A3 /* FindFiveMisses */,
+				8D92E6902DB8EF8C00B119A3 /* Images */,
 			);
 			name = FindFiveMisses;
 			packageProductDependencies = (
@@ -242,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D92E68D2DB8E83D00B119A3 /* FiveViewModel.swift in Sources */,
 				8D92E68B2DB8DB9700B119A3 /* FiveMisses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
